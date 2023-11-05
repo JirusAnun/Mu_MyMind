@@ -17,6 +17,8 @@ import { GoogleOAuthProvider } from '@react-oauth/google';
 import PersonalInfoForm from './PersonalInfo.jsx';
 import Hospital from './Hospital.jsx';
 import Home from './Home.jsx';
+import Course from './Course.jsx';
+import StudyCourse from './StudyCourse.jsx';
 
 const router = createBrowserRouter([
   {
@@ -62,6 +64,14 @@ const router = createBrowserRouter([
   {
     path: "/Home",
     element: <Home />,
+  },
+  {
+    path: "/course",
+    element: <Course />,
+  },
+  {
+    path: "/course/study",
+    element: <StudyCourse/>,
   },
   
 ]);
