@@ -1,0 +1,122 @@
+  .questionText{
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .button-container button {
+    padding: 5px 10px;
+    font-size: 14px;
+    width: 120px; /* Adjust this value to change the width of the buttons */
+    height: 40px; /* Adjust this value to change the height of the buttons */
+    text-align: center;
+  }
+  
+  .radioChoice {
+    display: inline-block;
+    margin: 5px;
+    padding: 0px 10px;
+    border: 1px solid #000;
+    border-radius: 10%;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 200px;
+    width: 100px; /* Adjust as needed */
+    height: 50px; /* Adjust as needed */
+    display: inline-block;
+    line-height: 50px; /* Adjust as needed */
+    text-align: center;
+  }
+  
+  /*button*/
+  .btn {
+    flex: 1 1 auto;
+    margin: 10px;
+    padding: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    box-shadow: 5px 5px 10px #dadada;
+    border-radius: 10px;
+    border-color: #ffffff; /* Add this line */
+  }
+  
+  /* Demo Stuff End -> */
+  
+  /* <- Magic Stuff Start */
+  
+  .btn:hover {
+    background-position: right center; /* change the direction of the change here */
+  }
+  
+  .btn-2 {
+    color: black;
+  }
+  
+  .btn-4 {
+    color: white;
+    background-image: linear-gradient(to right, #106aa0 0%,#23479a 95%);
+  }
+  
+  /*result*/
+  
+  .resultText-1{
+    font-family: 'Kanit', sans-serif;
+    font-size: 30px;
+    line-height: 0;
+    padding-top: 0%;
+  }
+  
+  .resultText-2{
+    font-family: 'Kanit', sans-serif;
+    font-size: 26px;
+    line-height: 0;
+    padding-top: 0%;
+  }
+  
+  .resultText-3{
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+    line-height: 0;
+    padding-top: 0%;
+  }
+  
+  .resultText-4{
+    font-family: 'Kanit', sans-serif;
+    font-size: 24px;
+    line-height: 0;
+    padding-top: 0%;
+  }
+  
+  .resultText-5{
+    font-family: 'Kanit', sans-serif;
+    font-size: 30px;
+    line-height: 0;
+    padding-top: 0%;
+  }
+  
+  .resultScore{
+    font-family: 'Kanit', sans-serif;
+    font-size: 18px;
+    line-height: 1;
+  }
+  
+  .resultDes{
+    font-family: 'Kanit', sans-serif;
+    font-size: 15px;
+    white-space: pre-wrap;
+  }
+  

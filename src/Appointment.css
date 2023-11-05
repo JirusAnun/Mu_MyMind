@@ -1,0 +1,32 @@
+input[type="text"], input[type="number"], input[type="time"], input[type="date"], input[type="email"], select {
+    font-size: 16px;
+}
+
+.appoText {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 16px;
+}
+
+.appoText label {
+    flex-basis: 30%; /* Adjust as needed */
+}
+
+.appoText input, .appoText select {
+    flex-basis: 70%; /* Adjust as needed */
+}
+
+.appoHead{
+    font-family: 'Kanit', sans-serif;
+    font-size: 30px;
+    margin-bottom: 30px;
+    margin-top: 0; /* Remove top margin */
+}
+
+input[type="submit"] {
+    padding: 10px 10px; /* Adjust as needed */
+}
+
