@@ -1,5 +1,8 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, Routes, Route } from 'react-router-dom';
+
+import Landing from './Landing'
+import Login from './Login'
 
 function App() {
   return (
@@ -15,7 +18,7 @@ function App() {
     </Link>
     <Link to="/Appointment">
         <button>Appointment</button>
-    </Link>
+    </Link> 
     <Link to="/Landing">
         <button>Landing</button>
     </Link>
