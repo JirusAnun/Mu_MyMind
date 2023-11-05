@@ -2,6 +2,11 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Dass21.css';
 
+const stressQuestions = [1, 6, 8, 11, 12, 14, 18];
+const anxietyQuestions = [2, 4, 7, 9, 15, 19, 20];
+const depressionQuestions = [3, 5, 10, 13, 16, 17, 21];
+
+
 const Question = ({ text, handleAnswer, selectedOption }) => {
   const handleChange = (event) => {
     handleAnswer(Number(event.target.value));
@@ -19,6 +24,7 @@ const Question = ({ text, handleAnswer, selectedOption }) => {
     </div>
   );
 };
+
 
 const Score = ({ score }) => {
   if (score < 5) {
@@ -158,15 +164,36 @@ const Dass21 = () => {
     });
   };
 
+  const calculateScores = () => {
+    let stressScore = 0;
+    let anxietyScore = 0;
+    let depressionScore = 0;
+
+    for (let i = 0; i < answers.length; i++) {
+      if (stressQuestions.includes(i + 1)) {
+        stressScore += answers[i];
+      } else if (anxietyQuestions.includes(i + 1)) {
+        anxietyScore += answers[i];
+      } else if (depressionQuestions.includes(i + 1)) {
+        depressionScore += answers[i];
+      }
+    }
+
+    const sum = stressScore + anxietyScore + depressionScore;
+
+    return { sum, stressScore, anxietyScore, depressionScore };
+  };
+
+  const submitScore = () => {
+    const scores = calculateScores();
+    setSubmitted(true);
+  };
+
   const handleStartQuiz = () => {
     setQuizStarted(true);
 };
 
   const sum = answers.reduce((a, b) => a + b, 0);
-
-  const submitScore = () => {
-    setSubmitted(true);
-  };
 
   if (!quizStarted) {
     return (
@@ -188,8 +215,10 @@ const Dass21 = () => {
     );
   }
 
+  const scores = calculateScores();
+
   if (submitted) {
-    return <Score score={sum} />;
+    return <Score score={scores.depressionScore} />;
   }
 
   return (
@@ -206,7 +235,10 @@ const Dass21 = () => {
         {currentQuestion < questions.length - 1 && <button className="btn btn-4" onClick={() => setCurrentQuestion(currentQuestion + 1)}>ต่อไป</button>}
         {currentQuestion === questions.length - 1 && <button className="btn btn-4" onClick={submitScore}>ส่ง</button>}
       </div>
-      <p>Sum: {sum}</p>
+      <p>Sum: {scores.sum}</p>
+      <p>depressionScore: {scores.depressionScore}</p>
+      <p>anxietyScore: {scores.anxietyScore}</p>
+      <p>stressScore: {scores.stressScore}</p>
     </div>
   );
 }
