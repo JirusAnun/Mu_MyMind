@@ -26,7 +26,7 @@ const Score = ({ score }) => {
       <div>
         <p className='resultText-1'>คุณมีสุขภาพจิตดี!</p>
         <p className='resultScore'>คะแนนของคุณคือ : {score}</p>
-        <img src="./src/assets/1x/Asset 1.png" alt="Asset1" width="200" height="220" />
+        <img src="https://github.com/JirusAnun/Mu_MyMind/blob/main/src/assets/1x/Asset%201.png?raw=true" alt="Asset1" width="200" height="220" />
         <p className='resultDes'>
         น้องเป็นผู้ที่มีสุขภาพจิตดีนะคะ อย่างไรก็ตาม ในอนาคตอาจจะมีเหตุการณ์เข้ามาในชีวิตที่ทำให้น้องเครียดได้ {'\n'}ดังนั้นเพื่อป้องกันปัญหาที่อาจจะเกิดขึ้นได้ในอนาคต {'\n'}ขอให้น้องๆมาเรียนรู้วิธีการและฝึกฝนเพื่อพัฒนาความเข้มแข็งทางจิตใจจากโปรแกรมส่งเสริมสุขภาพใจ {'\n'}ใน App นี้นะคะ</p>
         <div className="button-container">
@@ -43,7 +43,7 @@ const Score = ({ score }) => {
       <div>
         <p className='resultText-2'>คุณมีอาการซึมเศร้าเล็กน้อย</p>
         <p className='resultScore'>คะแนนของคุณคือ : {score}</p>
-        <img src="./src/assets/1x/Asset 2.png" alt="Asset2" width="200" height="220" />
+        <img src="https://github.com/JirusAnun/Mu_MyMind/blob/main/src/assets/1x/Asset%202.png?raw=true" alt="Asset2" width="200" height="220" />
         <p className='resultDes'>
         น้องเป็นผู้ที่เริ่มมีอารมณ์เศร้าเล็กน้อย {'\n'}ซึ่งคนทั่วไปก็สามารถมีอารมณ์เช่นนี้ได้ {'\n'}อย่างไรก็ตามหากต้องการหายจากอารมณ์เศร้านี้ {'\n'}ให้น้องเรียนรู้วิธีการจาก{'\n'}โปรแกรมส่งเสริมสุขภาพใจกันนะคะ</p>
         <p className='resultScore'>สายด่วนกรมสุขภาพจิต โทร: 1323</p>
@@ -61,7 +61,7 @@ const Score = ({ score }) => {
       <div>
         <p className='resultText-3'>คุณมีอาการซึมเศร้าปานกลาง</p>
         <p className='resultScore'>คะแนนของคุณคือ : {score}</p>
-        <img src="./src/assets/1x/Asset 3.png" alt="Asset3" width="200" height="220" />
+        <img src="https://github.com/JirusAnun/Mu_MyMind/blob/main/src/assets/1x/Asset%203.png?raw=true" alt="Asset3" width="200" height="220" />
         <p className='resultDes'>
         น้องเป็นผู้มีที่มีสภาวะอารมณ์ซึมเศร้าปานกลาง ไม่ต้องตกใจไปนะคะ เราสามารถช่วยให้สภาวะอารมณ์ของน้องกลับคืนสู่ภาวะปกติได้ เชิญน้องมาเรียนรู้จากโปรแกรมส่งเสริมสุขภาพใจ เพื่อการมีสุขภาพจิตที่ดีกันนะคะ</p>
         <p className='resultScore'>สายด่วนกรมสุขภาพจิต โทร: 1323</p>
@@ -79,7 +79,7 @@ const Score = ({ score }) => {
       <div>
         <p className='resultText-4'>คุณมีอาการซึมเศร้าค่อนข้างมาก</p>
         <p className='resultScore'>คะแนนของคุณคือ : {score}</p>
-        <img src="./src/assets/1x/Asset 4.png" alt="Asset4" width="200" height="220" />
+        <img src="https://github.com/JirusAnun/Mu_MyMind/blob/main/src/assets/1x/Asset%204.png?raw=true" alt="Asset4" width="200" height="220" />
         <p className='resultDes'>น้องมีสภาวะอารมณ์ซึมเศร้าค่อนข้างมาก ชึ่งสามารถเกิดขึ้นได้และสามารถกลับสู่สภาวะอารมณ์ปกติได้ อย่าเพิ่งต้องตกใจไปค่ะ น้องสามารถกลับคืนสู่การมีสุขภาพจิตที่ดีขึ้นได้โดยเร็วจากการทำ 2 อย่าง ดังนี้นะคะ 
         {'\n'}1) เข้าไปเรียนรู้จากโปรแกรมส่งเสริมสุขภาพใจ
         {'\n'}2) ปรึกษาผู้เชี่ยวชาญเพื่อให้การช่วยเหลือ ซึ่งพี่จะมีชื่อและเบอร์โทรให้แก่น้องในลำดับถัดไปค่ะ 
@@ -102,7 +102,7 @@ const Score = ({ score }) => {
       <div>
         <p className='resultText-5'>คุณมีอาการซึมเศร้าสูงมาก</p>
         <p className='resultScore'>คะแนนของคุณคือ : {score}</p>
-        <img src="./src/assets/1x/Asset 5.png" alt="Asset5" width="200" height="220" />
+        <img src="https://github.com/JirusAnun/Mu_MyMind/blob/main/src/assets/1x/Asset%205.png?raw=true" alt="Asset5" width="200" height="220" />
         <p className='resultDes'>น้องมีสภาวะอารมณ์ซึมเศร้าในระดับสูงมาก น้องกำลังต้องการการช่วยเหลือใช่ไหม๊คะ พี่สามารถช่วยเหลือน้องได้ค่ะ พี่มีผู้เชี่ยวชาญในการให้การช่วยเหลือพูดคุยให้การปรึกษากับน้องๆ  มีข้อมูลแหล่งช่วยเหลือต่างๆ {'\n'}ขอให้น้องติดต่อขอความช่วยเหลือได้เลยนะคะ หรือถ้าน้องต้องการให้ผู้เชี่ยวชาญของเราติดต่อกลับ เพื่อพูดคุยให้การปรึกษาให้น้องมีสุขภาพจิตดีขึ้นโดยเร็ว พี่ก็จะยินดีมากค่ะ  และขอเชิญชวนให้น้องเข้าไปเรียนรู้จากโปรแกรมส่งเสริมสุขภาพใจ
           เพื่อให้น้องกลับคืนสู่การมีสุขภาพจิตที่ดีโดยเร็วนะคะ</p>
         <p className='resultScore'>สายด่วนกรมสุขภาพจิต โทร: 1323</p>

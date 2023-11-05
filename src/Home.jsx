@@ -6,25 +6,36 @@ import './Home.css'
 function Home() {
     return (
         <div>
-            <img src="./src/assets/logo.png" alt="Asset3" width="50" height="50" className='logoHome'/>
+            <img src="https://github.com/JirusAnun/Mu_MyMind/blob/main/src/assets/logo.png?raw=true" alt="Asset3" width="50" height="50" className='logoHome'/>
             <p className='nameText'>My Mind</p>
+            <img src="./src/assets/profile.png" alt="Asset3" width="30" height="30" className='profileImg'/>
+        <div>
+            <img src="./src/assets/cover.png" alt="Asset3" className='cover'/>
+        </div>
+        <div className='surveyContainer'>
+            <Link to="/Dass21">
+                <button className='surveyBtn1'>แบบประเมิน{'\n'}ซึมเศร้า</button>
+            </Link>
+            <Link to="/Suicide">
+                <button className='surveyBtn1'>แบบประเมิน{'\n'}ฆ่าตัวตาย</button>
+            </Link>
+            <Link to="/WellBeing">
+                <button className='surveyBtn1'>แบบวัด{'\n'}การรับรู้ทางจิต</button>
+            </Link>
+        </div>
         <Link to="/Dass21">
-            <button>Dass21</button>
+                <button className='programBtn'>เข้าร่วมโปรแกรมส่งเสริมสุขภาพจิตใจ</button>
         </Link>
-        <Link to="/Suicide">
-            <button>suicide</button>
-        </Link>
-        <Link to="/WellBeing">
-            <button>Well Being</button>
-        </Link>
-        <Link to="/Appointment">
-            <button>Appointment</button>
-        </Link>
-        <Link to="/Landing">
-            <button>Landing</button>
-        </Link>
-        <Link to="/Hospital">
-            <button>Hospital</button>
+        <div className='appoiContainer'>
+            <Link to="/Appointment">
+                <button className='appoiBtn1'>นัดรับคำปรึกษา</button>
+            </Link>
+            <Link to="/Hospital">
+                <button className='appoiBtn1'>นัดพบแพทย์</button>
+            </Link>
+        </div>
+        <Link to="/Dass21">
+                <button className='chat'>พูดคุยกับเรา</button>
         </Link>
         </div>
       );
