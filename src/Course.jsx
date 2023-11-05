@@ -24,7 +24,7 @@ export default function Course() {
       <header className="course-header">
         <h2 className="course-header-text">Explore Courses</h2>
         <div className="search-container">
-          <i class="fa fa-search icon"></i> 
+          <i className="fa fa-search icon"></i> 
           <input
             id="search-bar"
             type="text"
@@ -39,24 +39,24 @@ export default function Course() {
         <h2 className="course-header">Courses</h2>
         <div className="slide-cards-container">
           <div className="slide-card" onClick={courseClicked}>
-            <h3>Card Content</h3>
-            <p>This is the content of the card.</p>
+            <h3>โปรแกรม</h3>
+            <p>หายใจคลายเครียด</p>
           </div>
           <div className="slide-card" onClick={courseClicked}>
-            <h3>Card Content</h3>
-            <p>This is the content of the card.</p>
+            <h3>โปรแกรม</h3>
+            <p>ละเอียดลออดูกาย</p>
           </div>
           <div className="slide-card" onClick={courseClicked}>
-            <h3>Card Content</h3>
-            <p>This is the content of the card.</p>
+            <h3>โปรแกรม</h3>
+            <p>ตระหนักรู้ในอารมณ์</p>
           </div>
           <div className="slide-card" onClick={courseClicked}>
-            <h3>Card Content</h3>
-            <p>This is the content of the card.</p>
+            <h3>โปรแกรม</h3>
+            <p>หายใจคลายเครียด 2</p>
           </div>
           <div className="slide-card" onClick={courseClicked}>
-            <h3>Card Content</h3>
-            <p>This is the content of the card.</p>
+            <h3>โปรแกรม</h3>
+            <p>หายใจคลายเครียด 3</p>
           </div>
         </div>
       </section>
