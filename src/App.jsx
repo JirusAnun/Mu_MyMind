@@ -22,6 +22,12 @@ function App() {
     <Link to="/Landing">
         <button>Landing</button>
     </Link>
+    <Link to="/Hospital">
+        <button>Hospital</button>
+    </Link>
+    <Link to="/Home">
+        <button>Home</button>
+    </Link>
     </div>
   );
 }

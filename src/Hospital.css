@@ -1,0 +1,17 @@
+.hosContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.hosTitle{
+    font-family: 'Kanit', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+
+    position: fixed;
+    top: 10%;
+    color: #23479a;
+}

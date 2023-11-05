@@ -1,0 +1,16 @@
+.logoHome{
+    position: absolute;
+    top: 2%;
+    left: 10%;
+    transform: translateX(-50%);
+}
+
+.nameText{
+    position: absolute;
+    top: 1.8%;
+    left: 24%;
+    transform: translateX(-50%);
+    font-family: 'Kanit', sans-serif;
+    font-size: 18px;
+    color: #106aa0;
+}
