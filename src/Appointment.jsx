@@ -66,7 +66,7 @@ const Appointment = () => {
                 <input type="time" value={time} onChange={(e) => setTime(e.target.value)} required />
             </p>
             <div className="button-container">
-            <Link to="/" className='linkAlone'>
+            <Link to="/home" className='linkAlone'>
                 <input className="btn btn-4" type="submit" value="   ยืนยันการนัดหมาย   " />
             </Link>
             </div>

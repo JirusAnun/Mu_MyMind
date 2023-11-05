@@ -24,7 +24,7 @@ function Landing() {
             <button onClick={LoginClicked} className='login-button'>เข้าสู่ระบบ</button>
             <button onClick={RegisterClicked} className='register-button'>สมัครสมาชิก</button>
          </div>
-         <button className='start-button'>เริ่มต้นใช้งาน</button>
+         <button onClick={LoginClicked} className='start-button'>เริ่มต้นใช้งาน</button>
          <img src="https://github.com/JirusAnun/Mu_MyMind/blob/main/src/assets/1x/display.png?raw=true" alt="Display" className="bottom-image" />
     </div>
   )

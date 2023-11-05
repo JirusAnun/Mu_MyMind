@@ -23,7 +23,7 @@ function Home() {
                 <button className='surveyBtn1'>แบบวัด{'\n'}การรับรู้ทางจิต</button>
             </Link>
         </div>
-        <Link to="/Dass21">
+        <Link to="/course">
                 <button className='programBtn'>เข้าร่วมโปรแกรมส่งเสริมสุขภาพจิตใจ</button>
         </Link>
         <div className='appoiContainer'>
@@ -34,7 +34,7 @@ function Home() {
                 <button className='appoiBtn1'>นัดพบแพทย์</button>
             </Link>
         </div>
-        <Link to="/Dass21">
+        <Link to="/home">
                 <button className='chat'>พูดคุยกับเรา</button>
         </Link>
         </div>

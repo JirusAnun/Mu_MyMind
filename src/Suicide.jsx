@@ -95,7 +95,7 @@ const Suicide = () => {
                   <img src="https://github.com/JirusAnun/Mu_MyMind/blob/main/src/assets/1x/Asset%201.png?raw=true" alt="Asset1" width="200" height="220" />
                   <div className="button-container">
                   <br/><br/><br/><br/><br/><br/><br/>
-                  <Link to="/" className='linkAlone'>
+                  <Link to="/home" className='linkAlone'>
                     <button className="btn btn-4">รับทราบ</button>
                   </Link>
                   </div>
@@ -109,7 +109,7 @@ const Suicide = () => {
                   <img src="https://github.com/JirusAnun/Mu_MyMind/blob/main/src/assets/1x/Asset%203.png?raw=true" alt="Asset1" width="200" height="220" />
                   <div className="button-container">
                   <br/><br/><br/><br/><br/><br/><br/>
-                  <Link to="/" className='linkAlone'>
+                  <Link to="/home" className='linkAlone'>
                     <button className="btn btn-4">รับทราบ</button>
                   </Link>
                   </div>
@@ -123,7 +123,7 @@ const Suicide = () => {
                   <img src="https://github.com/JirusAnun/Mu_MyMind/blob/main/src/assets/1x/Asset%204.png?raw=true" alt="Asset1" width="200" height="220" />
                   <div className="button-container">
                   <br/><br/><br/><br/><br/><br/><br/>
-                  <Link to="/" className='linkAlone'>
+                  <Link to="/home" className='linkAlone'>
                     <button className="btn btn-4">รับทราบ</button>
                   </Link>
                   </div>
@@ -137,7 +137,7 @@ const Suicide = () => {
                   <img src="https://github.com/JirusAnun/Mu_MyMind/blob/main/src/assets/1x/Asset%205.png?raw=true" alt="Asset1" width="200" height="220" />
                   <div className="button-container">
                   <br/><br/><br/><br/><br/><br/><br/>
-                  <Link to="/" className='linkAlone'>
+                  <Link to="/home" className='linkAlone'>
                     <button className="btn btn-4">รับทราบ</button>
                   </Link>
                   </div>

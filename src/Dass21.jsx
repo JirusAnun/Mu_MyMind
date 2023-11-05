@@ -36,7 +36,7 @@ const Score = ({ score }) => {
         <p className='resultDes'>
         น้องเป็นผู้ที่มีสุขภาพจิตดีนะคะ อย่างไรก็ตาม ในอนาคตอาจจะมีเหตุการณ์เข้ามาในชีวิตที่ทำให้น้องเครียดได้ {'\n'}ดังนั้นเพื่อป้องกันปัญหาที่อาจจะเกิดขึ้นได้ในอนาคต {'\n'}ขอให้น้องๆมาเรียนรู้วิธีการและฝึกฝนเพื่อพัฒนาความเข้มแข็งทางจิตใจจากโปรแกรมส่งเสริมสุขภาพใจ {'\n'}ใน App นี้นะคะ</p>
         <div className="button-container">
-          <Link to="/" className='linkAlone'>
+          <Link to="/home" className='linkAlone'>
             <button className="btn btn-4">รับทราบ</button>
           </Link>
         </div>
@@ -54,7 +54,7 @@ const Score = ({ score }) => {
         น้องเป็นผู้ที่เริ่มมีอารมณ์เศร้าเล็กน้อย {'\n'}ซึ่งคนทั่วไปก็สามารถมีอารมณ์เช่นนี้ได้ {'\n'}อย่างไรก็ตามหากต้องการหายจากอารมณ์เศร้านี้ {'\n'}ให้น้องเรียนรู้วิธีการจาก{'\n'}โปรแกรมส่งเสริมสุขภาพใจกันนะคะ</p>
         <p className='resultScore'>สายด่วนกรมสุขภาพจิต โทร: 1323</p>
         <div className="button-container">
-          <Link to="/" className='linkAlone'>
+          <Link to="/home" className='linkAlone'>
             <button className="btn btn-4">รับทราบ</button>
           </Link>
         </div>
@@ -72,7 +72,7 @@ const Score = ({ score }) => {
         น้องเป็นผู้มีที่มีสภาวะอารมณ์ซึมเศร้าปานกลาง ไม่ต้องตกใจไปนะคะ เราสามารถช่วยให้สภาวะอารมณ์ของน้องกลับคืนสู่ภาวะปกติได้ เชิญน้องมาเรียนรู้จากโปรแกรมส่งเสริมสุขภาพใจ เพื่อการมีสุขภาพจิตที่ดีกันนะคะ</p>
         <p className='resultScore'>สายด่วนกรมสุขภาพจิต โทร: 1323</p>
         <div className="button-container">
-          <Link to="/" className='linkAlone'>
+          <Link to="/home" className='linkAlone'>
           <button className="btn btn-4">รับทราบ</button>
           </Link>
         </div>
@@ -235,10 +235,10 @@ const Dass21 = () => {
         {currentQuestion < questions.length - 1 && <button className="btn btn-4" onClick={() => setCurrentQuestion(currentQuestion + 1)}>ต่อไป</button>}
         {currentQuestion === questions.length - 1 && <button className="btn btn-4" onClick={submitScore}>ส่ง</button>}
       </div>
-      <p>Sum: {scores.sum}</p>
+      {/* <p>Sum: {scores.sum}</p>
       <p>depressionScore: {scores.depressionScore}</p>
       <p>anxietyScore: {scores.anxietyScore}</p>
-      <p>stressScore: {scores.stressScore}</p>
+      <p>stressScore: {scores.stressScore}</p> */}
     </div>
   );
 }

@@ -25,7 +25,7 @@ const Score = ({ score }) => {
       <div>
         <p className='resultText-1'>คะแนนของคุณคือ : {score}</p>
         <div className="button-container">
-          <Link to="/" className='linkAlone'>
+          <Link to="/home" className='linkAlone'>
             <button className="btn btn-4">รับทราบ</button>
           </Link>
         </div>
@@ -123,7 +123,7 @@ const WellBeing = () => {
         {currentQuestion < questions.length - 1 && <button className="btn btn-4" onClick={() => setCurrentQuestion(currentQuestion + 1)}>ต่อไป</button>}
         {currentQuestion === questions.length - 1 && <button className="btn btn-4" onClick={submitScore}>ส่ง</button>}
       </div>
-      <p>Sum: {sum}</p>
+      {/* <p>Sum: {sum}</p> */}
     </div>
   );
 }

@@ -23,7 +23,7 @@ import StudyCourse from './StudyCourse.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App />,
+    element: <Landing />,
   },
   {
     path: "/Dass21",
@@ -42,8 +42,8 @@ const router = createBrowserRouter([
     element: <Appointment />,
   },
   {
-    path: "/Landing",
-    element: <Landing />,
+    path: "/home",
+    element: <Home />,
   },
   {
     path: "/login",
