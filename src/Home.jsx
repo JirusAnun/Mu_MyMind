@@ -8,9 +8,9 @@ function Home() {
         <div>
             <img src="https://github.com/JirusAnun/Mu_MyMind/blob/main/src/assets/logo.png?raw=true" alt="Asset3" width="50" height="50" className='logoHome'/>
             <p className='nameText'>My Mind</p>
-            <img src="./src/assets/profile.png" alt="Asset3" width="30" height="30" className='profileImg'/>
+            <img src="https://github.com/JirusAnun/Mu_MyMind/blob/main/src/assets/profile.png?raw=true" alt="Asset3" width="30" height="30" className='profileImg'/>
         <div>
-            <img src="./src/assets/cover.png" alt="Asset3" className='cover'/>
+            <img src="https://github.com/JirusAnun/Mu_MyMind/blob/main/src/assets/cover.png?raw=true" alt="Asset3" className='cover'/>
         </div>
         <div className='surveyContainer'>
             <Link to="/Dass21">

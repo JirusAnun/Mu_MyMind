@@ -92,7 +92,7 @@ const Suicide = () => {
                 <div>
                   <p className='resultText-1'>คุณไม่มีแนวโน้มฆ่าตัวตาย</p>
                   <p className='resultScore'>คะแนนของคุณคือ : {score}</p>
-                  <img src="./src/assets/1x/Asset 1.png" alt="Asset1" width="200" height="220" />
+                  <img src="https://github.com/JirusAnun/Mu_MyMind/blob/main/src/assets/1x/Asset%201.png?raw=true" alt="Asset1" width="200" height="220" />
                   <div className="button-container">
                   <br/><br/><br/><br/><br/><br/><br/>
                   <Link to="/" className='linkAlone'>
@@ -106,7 +106,7 @@ const Suicide = () => {
                 <div>
                   <p className='resultText-2'>คุณมีแนวโน้มฆ่าตัวตายเล็กน้อย</p>
                   <p className='resultScore'>คะแนนของคุณคือ : {score}</p>
-                  <img src="./src/assets/1x/Asset 3.png" alt="Asset1" width="200" height="220" />
+                  <img src="https://github.com/JirusAnun/Mu_MyMind/blob/main/src/assets/1x/Asset%203.png?raw=true" alt="Asset1" width="200" height="220" />
                   <div className="button-container">
                   <br/><br/><br/><br/><br/><br/><br/>
                   <Link to="/" className='linkAlone'>
@@ -120,7 +120,7 @@ const Suicide = () => {
                 <div>
                   <p className='resultText-3'>คุณมีแนวโน้มฆ่าตัวตายระดับปานกลาง</p>
                   <p className='resultScore'>คะแนนของคุณคือ : {score}</p>
-                  <img src="./src/assets/1x/Asset 4.png" alt="Asset1" width="200" height="220" />
+                  <img src="https://github.com/JirusAnun/Mu_MyMind/blob/main/src/assets/1x/Asset%204.png?raw=true" alt="Asset1" width="200" height="220" />
                   <div className="button-container">
                   <br/><br/><br/><br/><br/><br/><br/>
                   <Link to="/" className='linkAlone'>
@@ -134,7 +134,7 @@ const Suicide = () => {
                 <div>
                   <p className='resultText-4'>คุณมีแนวโน้มฆ่าตัวตายรุนแรง</p>
                   <p className='resultScore'>คะแนนของคุณคือ : {score}</p>
-                  <img src="./src/assets/1x/Asset 5.png" alt="Asset1" width="200" height="220" />
+                  <img src="https://github.com/JirusAnun/Mu_MyMind/blob/main/src/assets/1x/Asset%205.png?raw=true" alt="Asset1" width="200" height="220" />
                   <div className="button-container">
                   <br/><br/><br/><br/><br/><br/><br/>
                   <Link to="/" className='linkAlone'>
