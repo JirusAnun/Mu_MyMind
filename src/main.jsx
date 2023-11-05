@@ -11,6 +11,10 @@ import Suicide from './Suicide.jsx';
 import WellBeing from './WellBeing.jsx';
 import Appointment from './Appointment.jsx';
 import Landing from './Landing.jsx';
+import Login from './Login.jsx';
+import Register from './Register.jsx';
+import { GoogleOAuthProvider } from '@react-oauth/google';
+import PersonalInfoForm from './PersonalInfo.jsx';
 
 const router = createBrowserRouter([
   {
@@ -37,10 +41,26 @@ const router = createBrowserRouter([
     path: "/Landing",
     element: <Landing />,
   },
+  {
+    path: "/login",
+    element: <Login />,
+  },
+  {
+    path: "/register",
+    element: <Register />,
+  },
+  {
+    path: "/PersonalInfo",
+    element: <PersonalInfoForm />,
+  },
+  
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <GoogleOAuthProvider clientId="83113793832-5evpgq291i3ob5imhncd4cr8itqpjv7k.apps.googleusercontent.com">
+      <RouterProvider router={router} />
+    </GoogleOAuthProvider>
+    
   </React.StrictMode>,
 )
