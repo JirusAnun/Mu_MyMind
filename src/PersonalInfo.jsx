@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './PersonalInfo.css';
+import { useNavigate } from 'react-router-dom';
 
 function PersonalInfoForm() {
   const [firstName, setFirstName] = useState('');
@@ -7,22 +8,20 @@ function PersonalInfoForm() {
   const [email, setEmail] = useState('');
   const [age, setAge] = useState(''); // Add age state
 
+  const navigate = useNavigate();
+
   const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log('First Name: ' + firstName);
-    console.log('Last Name: ' + lastName);
-    console.log('Email: ' + email);
-    console.log('Age: ' + age); // Include age in the submission
+    return navigate("/home")
   };
 
   return (
-    <div>
-      <h2 className="label">Personal Information Form</h2>
+    <div className="font">
+      <h2 className="label">กรุณากรอกข้อมูลของท่าน</h2>
       <form onSubmit={handleSubmit} className="personal-info-form">
         <div>
-          <label htmlFor="firstName" className="label">
-            First Name:
-          </label>
+          <p htmlFor="firstName" className="label">
+            ชื่อจริง
+          </p>
           <input
             type="text"
             id="firstName"
@@ -33,9 +32,9 @@ function PersonalInfoForm() {
         </div>
 
         <div>
-          <label htmlFor="lastName" className="label">
-            Last Name:
-          </label>
+          <p htmlFor="lastName" className="label">
+            นามสกุล
+          </p>
           <input
             type="text"
             id="lastName"
@@ -46,9 +45,9 @@ function PersonalInfoForm() {
         </div>
 
         <div>
-          <label htmlFor="email" className="label">
-            Email:
-          </label>
+          <p htmlFor="email" className="label">
+            อีเมล
+          </p>
           <input
             type="email"
             id="email"
@@ -59,9 +58,9 @@ function PersonalInfoForm() {
         </div>
 
         <div>
-          <label htmlFor="age" className="label">
-            Age:
-          </label>
+          <p htmlFor="age" className="label">
+            อายุ
+          </p>
           <input
             type="number"
             id="age"
@@ -71,7 +70,7 @@ function PersonalInfoForm() {
           />
         </div>
 
-        <button type="submit" className="button">
+        <button onClick={handleSubmit} type="submit" className="btn-4 btn">
           Submit
         </button>
       </form>
