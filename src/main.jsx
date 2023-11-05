@@ -11,6 +11,8 @@ import Suicide from './Suicide.jsx';
 import WellBeing from './WellBeing.jsx';
 import Appointment from './Appointment.jsx';
 import Landing from './Landing.jsx';
+import Hospital from './Hospital.jsx';
+import Home from './Home.jsx';
 
 const router = createBrowserRouter([
   {
@@ -37,6 +39,15 @@ const router = createBrowserRouter([
     path: "/Landing",
     element: <Landing />,
   },
+  {
+    path: "/Hospital",
+    element: <Hospital />,
+  },
+  {
+    path: "/Home",
+    element: <Home />,
+  },
+  
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
