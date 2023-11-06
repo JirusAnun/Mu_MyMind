@@ -1,8 +1,11 @@
 import React, { useState } from "react";
 
 import "./StudyCourse.css";
+import { useNavigate } from "react-router-dom";
 
 export default function StudyCourse() {
+  const navigate = useNavigate();
+
   const handlePlayVideo = (url) => {
     if (url == null) return;
     window.open(url, "_blank", "noreferrer");
@@ -87,19 +90,28 @@ export default function StudyCourse() {
   const [currentArticleIndex, setCurrentArticleIndex] = useState(0);
 
   const previousArticle = () => {
+    if (currentArticleIndex == 0) {
+      navigate("/course")
+    }
     if (currentArticleIndex > 0) {
       
       setCurrentArticleIndex(currentArticleIndex - 1);
       decreaseProgress();
     }
+    
   };
 
   const nextArticle = () => {
+    if (currentArticleIndex == articles.length - 1) {
+      navigate("/home")
+    }
+
     if (currentArticleIndex < articles.length - 1) {
       
       setCurrentArticleIndex(currentArticleIndex + 1);
       increaseProgress();
     }
+    
   };
 
   const [progress, setProgress] = useState(0);
@@ -141,7 +153,6 @@ export default function StudyCourse() {
         <div className="left-footer">
           <button
             onClick={previousArticle}
-            disabled={currentArticleIndex === 0}
             className="btn btn-2 study-button"
           >
             ก่อนหน้า
@@ -150,7 +161,6 @@ export default function StudyCourse() {
         <div className="right-footer">
           <button
             onClick={nextArticle}
-            disabled={currentArticleIndex === articles.length - 1}
             className="btn btn-4 study-button"
           >
             ต่อไป
