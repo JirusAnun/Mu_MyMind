@@ -13,6 +13,7 @@ input[type="text"], input[type="number"], input[type="time"], input[type="date"]
 
 .appoText label {
     flex-basis: 30%; /* Adjust as needed */
+
 }
 
 .appoText input, .appoText select {
@@ -28,5 +29,17 @@ input[type="text"], input[type="number"], input[type="time"], input[type="date"]
 
 input[type="submit"] {
     padding: 10px 10px; /* Adjust as needed */
+}
+
+.ap-input{
+    background-color: #f1f1f1;
+    border: none;
+    border-radius: 5px;
+    height: 2rem;
+}
+
+.ap-form{
+    display: flex;
+    flex-direction: column;
 }
 
